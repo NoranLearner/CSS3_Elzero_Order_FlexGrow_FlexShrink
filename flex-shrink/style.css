@@ -1,0 +1,41 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #eee;
+    display: flex;
+}
+
+.container div{
+    width: 150px;
+    max-height: 100px;
+    color: #fff;
+    padding: 10px;
+}
+
+.container .one{
+    background-color: brown;
+}
+
+.container .two{
+    background-color: blueviolet;
+    flex-shrink: 0;
+}
+
+.container .three{
+    background-color: cadetblue;
+}
+
+.container .four{
+    background-color: burlywood;
+}
+
+
+
